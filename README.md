@@ -227,7 +227,8 @@ hr {
 ## OUTPUT:
 
 
-<img width="1536" height="1024" alt="055fc2b4-0749-4a08-9cdb-7eb2f72ff23b" src="https://github.com/user-attachments/assets/9d8e633b-1edd-4e89-8f7a-25d536bbefba" />
+<img width="1919" height="1019" alt="Screenshot 2025-12-24 101005" src="https://github.com/user-attachments/assets/121db0a9-987d-4634-a3e7-2c68abe84dea" />
+
 
 
 ## RESULT:
