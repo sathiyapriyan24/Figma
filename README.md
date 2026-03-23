@@ -1,5 +1,5 @@
 # Ex09 Event Registration Web Application
-## Date: 24.12.2025
+## Date: 23.3.2025
 # Ref : 25018768
 
 ## AIM:
@@ -35,200 +35,414 @@ Figma
 
 ## CODE:
 
-~~~
-HTML 
------
+```
+phone 1-html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-pro-max">
+      <img class="rectangle" src="img/rectangle.png" />
+      <div class="text-wrapper">Dance Competition</div>
+      <div class="div"></div>
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper-2">Login</div>
+      <div class="text-wrapper-3">Register</div>
+      <div class="rectangle-3"></div>
+      <div class="text-wrapper-4">Sathiya Priyan G(25018768)</div>
+    </div>
+  </body>
+</html>
 
-Page-1
-Home page
+phone 1-css
+
+.iphone-pro-max {
+  background-color: #be3ed4;
+  width: 100%;
+  min-width: 433px;
+  min-height: 940px;
+  position: relative;
+}
+
+.iphone-pro-max .rectangle {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  width: 433px;
+  height: 181px;
+  aspect-ratio: 2.39;
+}
+
+.iphone-pro-max .text-wrapper {
+  position: absolute;
+  top: 209px;
+  left: 47px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .div {
+  position: absolute;
+  top: 353px;
+  left: 59px;
+  width: 316px;
+  height: 54px;
+  background-color: #141414;
+}
+
+.iphone-pro-max .rectangle-2 {
+  position: absolute;
+  top: 522px;
+  left: 59px;
+  width: 316px;
+  height: 54px;
+  background-color: #141414;
+}
+
+.iphone-pro-max .text-wrapper-2 {
+  position: absolute;
+  top: 357px;
+  left: 164px;
+  -webkit-text-stroke: 1px #ff0000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ff0000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-pro-max .text-wrapper-3 {
+  position: absolute;
+  top: 524px;
+  left: 138px;
+  -webkit-text-stroke: 1px #f51616;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ef0808;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-pro-max .rectangle-3 {
+  position: absolute;
+  top: 890px;
+  left: 0;
+  width: 433px;
+  height: 50px;
+  background-color: #e3ef0a;
+}
+
+.iphone-pro-max .text-wrapper-4 {
+  position: absolute;
+  top: 899px;
+  left: 58px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #211d1d;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+phone 2-html
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Register</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="phone yellow">
-    <div class="header">
-        <h3>SAVEETHA<br>ENGINEERING COLLEGE</h3>
-        <span class="code">1216</span>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-pro-max">
+      <img class="rectangle" src="img/rectangle.png" />
+      <div class="text-wrapper">Dance Competition</div>
+      <div class="div"></div>
+      <div class="text-wrapper-2">Sathiya Priyan G(25018768)</div>
+      <div class="text-wrapper-3">solo performance</div>
+      <div class="text-wrapper-4">Duo performance</div>
+      <div class="text-wrapper-5">Team performance</div>
     </div>
-
-    <div class="card center">
-        <button class="btn gray" onclick="location.href='page2.html'">
-            REGISTER
-</button>
-    </div>
-</div>
-
-</body>
+  </body>
 </html>
 
+phone 2-css
 
-Page-2
-Details
+.iphone-pro-max {
+  background-color: #3ac91e;
+  overflow: hidden;
+  width: 100%;
+  min-width: 432px;
+  min-height: 939px;
+  position: relative;
+}
+
+.iphone-pro-max .rectangle {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  width: 432px;
+  height: 181px;
+  aspect-ratio: 2.39;
+}
+
+.iphone-pro-max .text-wrapper {
+  position: absolute;
+  top: 209px;
+  left: 47px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .div {
+  position: absolute;
+  top: 890px;
+  left: 0;
+  width: 433px;
+  height: 50px;
+  background-color: #e3ef0a;
+}
+
+.iphone-pro-max .text-wrapper-2 {
+  position: absolute;
+  top: 899px;
+  left: 58px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #211d1d;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .text-wrapper-3 {
+  position: absolute;
+  top: 330px;
+  left: 11px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .text-wrapper-4 {
+  position: absolute;
+  top: 431px;
+  left: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone-pro-max .text-wrapper-5 {
+  position: absolute;
+  top: 532px;
+  left: 11px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+phone 3-html
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Participants Details</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="phone blue">
-    <h2 class="title">Participants Details</h2>
-
-    <div class="card">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email Address">
-        <input type="tel" placeholder="Mobile Number">
-
-        <button class="btn green" onclick="location.href='page3.html'">
-            Submit
-        </button>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone-pro">
+      <img class="rectangle" src="img/rectangle.png" />
+      <div class="text-wrapper">Dance Competition</div>
+      <div class="div"></div>
+      <div class="text-wrapper-2">Sathiya Priyan G(25018768)</div>
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper-3">Name</div>
+      <div class="rectangle-3"></div>
+      <div class="rectangle-4"></div>
+      <div class="rectangle-5"></div>
+      <div class="text-wrapper-4">Reg No</div>
+      <div class="text-wrapper-5">Team Name</div>
+      <div class="text-wrapper-6">Phone No</div>
     </div>
-</div>
-
-</body>
+  </body>
 </html>
 
+phone 3-css
 
-Page-3
-Thank you
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Success</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<div class="phone green-bg">
-    <div class="card center">
-        <h2 class="success">Registration Successful 🎉</h2>
-        <hr>
-        <p>Thank you for registering for the event.</p>
-        <p>We will contact you soon</p>
-    </div>
-</div>
-
-</body>
-</html>
-
-
-CSS 
-----
-
-body {
-    margin: 0;
-    background: #eee;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.iphone-pro {
+  background-color: #f6369c;
+  overflow: hidden;
+  width: 100%;
+  min-width: 483px;
+  min-height: 939px;
+  position: relative;
 }
 
-/* Mobile Frame */
-.phone {
-    width: 280px;
-    height: 540px;
-    border-radius: 35px;
-    padding: 20px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
-    position: relative;
+.iphone-pro .rectangle {
+  position: absolute;
+  top: 29px;
+  left: 25px;
+  width: 433px;
+  height: 181px;
+  aspect-ratio: 2.39;
 }
 
-/* Backgrounds */
-.yellow {
-    background: linear-gradient(#ffb300, #fff1d6);
+.iphone-pro .text-wrapper {
+  position: absolute;
+  top: 209px;
+  left: 47px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.blue {
-    background: linear-gradient(#7bb8cc, #eaf6fa);
+.iphone-pro .div {
+  position: absolute;
+  top: 890px;
+  left: 0;
+  width: 483px;
+  height: 50px;
+  background-color: #e3ef0a;
 }
 
-.green-bg {
-    background: linear-gradient(#1aa334, #e6f6ea);
+.iphone-pro .text-wrapper-2 {
+  position: absolute;
+  top: 899px;
+  left: 82px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #211d1d;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-/* Header */
-.header {
-    color: #000;
-    font-size: 12px;
-    font-weight: bold;
+.iphone-pro .rectangle-2 {
+  position: absolute;
+  top: 315px;
+  left: 59px;
+  width: 316px;
+  height: 54px;
+  background-color: #15ccff;
 }
 
-.code {
-    float: right;
+.iphone-pro .text-wrapper-3 {
+  position: absolute;
+  top: 322px;
+  left: 167px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #111010;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-/* Title */
-.title {
-    text-align: center;
-    margin-top: 40px;
+.iphone-pro .rectangle-3 {
+  position: absolute;
+  top: 467px;
+  left: 59px;
+  width: 316px;
+  height: 54px;
+  background-color: #12c7eb;
 }
 
-/* Card */
-.card {
-    background: #f2fbff;
-    border-radius: 25px;
-    padding: 25px;
-    margin-top: 60px;
+.iphone-pro .rectangle-4 {
+  position: absolute;
+  top: 391px;
+  left: 59px;
+  width: 316px;
+  height: 54px;
+  background-color: #1ac5ff;
 }
 
-.center {
-    text-align: center;
+.iphone-pro .rectangle-5 {
+  position: absolute;
+  top: 543px;
+  left: 59px;
+  width: 316px;
+  height: 54px;
+  background-color: #1affeb;
 }
 
-/* Inputs */
-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    border: 1px solid #888;
+.iphone-pro .text-wrapper-4 {
+  position: absolute;
+  top: 398px;
+  left: 156px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #121010;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-/* Buttons */
-.btn {
-    width: 100%;
-    padding: 12px;
-    border-radius: 6px;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
+.iphone-pro .text-wrapper-5 {
+  position: absolute;
+  top: 474px;
+  left: 126px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #201e1e;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.gray {
-    background: #ddd;
+.iphone-pro .text-wrapper-6 {
+  position: absolute;
+  top: 550px;
+  left: 143px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #2b2626;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.green {
-    background: #0a9b18;
-    color: white;
-}
-
-/* Success */
-.success {
-    color: #0a8a2a;
-}
-
-hr {
-    margin: 15px 0;
-}
-
-
-~~~
+```
 ## OUTPUT:
-
-
-<img width="1919" height="1019" alt="Screenshot 2025-12-24 101005" src="https://github.com/user-attachments/assets/121db0a9-987d-4634-a3e7-2c68abe84dea" />
-
+<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/115fc672-ec4f-4945-9877-fdbc6fe06cea" />
 
 
 ## RESULT:
